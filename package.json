@@ -1,0 +1,15 @@
+{
+  "name": "unicode-fuckery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi"
+  },
+  "devDependencies": {
+    "poi": "^9.6.13"
+  },
+  "dependencies": {
+    "mithril": "^1.1.6"
+  }
+}

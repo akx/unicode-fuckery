@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body, input {
+    font: 14px sans-serif;
+}
+
+
+body {
+    margin: auto;
+    margin-top: 0.5em;
+    width: 50em;
+}
+
+input, table {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+th {
+    text-align: left;
+    width: 10em;
+}
+
+th, td {
+    padding: 4px;
+}
