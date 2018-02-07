@@ -10,11 +10,11 @@ const charmap = (fn, text) => {
     codepoints.push(codepoint);
   }
   const mappedCodepoints = codepoints.map(fn);
-  const mappedChars = mappedCodepoints.map(c => String.fromCodePoint(c));
-  return mappedChars.join('');
+  const mappedChars = mappedCodepoints.map(c => typeof c === 'number' ? String.fromCodePoint(c) : c);
+  return mappedChars.join('').trim();
 };
 
-let message = 'hello world';
+let message = 'HELLO world 0123456789';
 
 const view = () => [
   m('input', {
